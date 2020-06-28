@@ -16,3 +16,8 @@ const kDefaultShadow = BoxShadow(
   blurRadius: 27,
   color: Colors.black12, // Black color with 12% opacity
 );
+
+String WELCOME_SCREEN = '/WelcomeScreen',
+    IMAGE_SPLASH = '/ImageSplashScreen',
+    PRODUCT_SCREEN = '/ProductScreen',
+    ANIMATED_SPALSH = '/AnimatedSplashScreen';
