@@ -17,7 +17,7 @@ class WelcomeScreenState extends State<WelcomeScreen> {
         /* appBar: AppBar(
           title: new Text("Welcome Page"),
         ),*/
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.teal[20],
         body: new Stack(
           fit: StackFit.expand,
           children: <Widget>[
@@ -25,9 +25,9 @@ class WelcomeScreenState extends State<WelcomeScreen> {
               children: <Widget>[
                 SizedBox(height: 70.0),
                 SizedBox(
-                  height: 0.0,
+                  height: 70.0,
                   child: new Text(
-                    "Welcome Page",
+                    "Quick Menu",
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 28.0,
@@ -39,17 +39,6 @@ class WelcomeScreenState extends State<WelcomeScreen> {
             new Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                SizedBox(height: 70.0),
-                SizedBox(
-                  height: 0.0,
-                  child: new Text(
-                    "Welcome Page",
-                    style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 28.0,
-                        fontWeight: FontWeight.bold),
-                  ),
-                ),
                 Padding(
                   padding: const EdgeInsets.only(
                       left: 0.0, right: 0.0, top: 30.0, bottom: 0.0),

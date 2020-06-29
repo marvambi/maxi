@@ -5,24 +5,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:marvin/screens/AnimatedSplashScreen.dart';
 import 'package:marvin/screens/WelcomeScreen.dart';
 import 'package:marvin/screens/ImageSplashScreen.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
-// Future main() async {
-//   runApp(new MaterialApp(
-//     title: 'Marvin',
-//     debugShowCheckedModeBanner: false,
-//     theme: new ThemeData(
-//       primarySwatch: Colors.red,
-//     ),
-//     home: new AnimatedSplashScreen(),
-//     routes: <String, WidgetBuilder>{
-//       WELCOME_SCREEN: (BuildContext context) => WelcomeScreen(),
-//       PRODUCT_SCREEN: (BuildContext context) => ProductsScreen(),
-//       IMAGE_SPLASH: (BuildContext context) => ImageSplashScreen(),
-//       ANIMATED_SPALSH: (BuildContext context) => AnimatedSplashScreen()
-//     },
-//   ));
-// }
 
 void main() {
   runApp(MyApp());

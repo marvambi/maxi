@@ -4,6 +4,7 @@ import 'package:marvin/constants.dart';
 
 import 'components/body.dart';
 
+// ignore: must_be_immutable
 class ProductsScreen extends StatelessWidget {
   dynamic cxt;
   @override
