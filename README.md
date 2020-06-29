@@ -1,4 +1,4 @@
-# Marvin -  Playground with Flutter
+# Marvin -  Playground with Flutter Lists and Animated Splash Screens
 
 
 **Packages we are using:**
